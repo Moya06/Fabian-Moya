@@ -1,0 +1,66 @@
+/* Animaciones del modal de testimonios */
+.modal-container {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-container.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.active {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+.testimonials-modal {
+  transform: scale(0.8);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.testimonials-modal.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Animación de entrada más suave */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes modalFadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+/* Aplicar animaciones cuando el modal está activo */
+.modal-container.active .testimonials-modal {
+  animation: modalFadeIn 0.3s ease forwards;
+}
+
+/* Animación de salida */
+.modal-container:not(.active) .testimonials-modal {
+  animation: modalFadeOut 0.3s ease forwards;
+}
