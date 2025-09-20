@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import '../assets/css/modal-animations.css';
 
 // Importa todas las imágenes
-import avatar1 from '../assets/img/avatar-1.png';
-import avatar2 from '../assets/img/avatar-2.png';
-import avatar3 from '../assets/img/avatar-3.png';
-import avatar4 from '../assets/img/avatar-4.png';
+import certification1 from '../assets/img/certification-1.png';
+import certification2 from '../assets/img/certification-2.png';
+import certification3 from '../assets/img/certification-3.png';
+import certification4 from '../assets/img/certification-4.png';
+import certification5 from '../assets/img/certification-5.png';
+import certification6 from '../assets/img/certification-6.png';
+import certification7 from '../assets/img/certification-7.png';
 import quoteIcon from '../assets/img/icon-quote.svg';
 
 const Testimonials = () => {
@@ -13,76 +16,89 @@ const Testimonials = () => {
   const [isModalAnimating, setIsModalAnimating] = useState(false);
   const [selectedTestimonial, setSelectedTestimonial] = useState(null);
 
-  // Datos de los testimonios con las imágenes importadas
   const testimonials = [
     {
       id: 1,
-      avatar: avatar1, // Usa la variable importada
-      name: "Daniel lewis",
-      text: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
-      date: "2021-06-14"
+      avatar: certification5,
+      name: "PROGRAMMING ESSENTIALS IN PYTHON",
+      subtitle: "CISCO NETWORKING ACADEMY",
+      text: "Curso introductorio a la programación con Python, enfocándose en lógica, estructuras de datos, funciones, y buenas prácticas de desarrollo de software.",
+      date: "febrero 8 2024 - diciembre 13 2024"
     },
     {
       id: 2,
-      avatar: avatar2,
-      name: "Jessica miller",
-      text: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
-      date: "2021-05-20"
+      avatar: certification1,
+      name: "IT ESSENTIALS",
+      subtitle: "CISCO NETWORKING ACADEMY",
+      text: "Fundamentos de hardware, software y redes, incluyendo diagnóstico de sistemas, instalación de componentes y soporte técnico básico profesional.",
+      date: "febrero 8 2024 - diciembre 13 2024"
     },
     {
       id: 3,
-      avatar: avatar3,
-      name: "Emily evans",
-      text: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
-      date: "2021-04-15"
+      avatar: certification2,
+      name: "CCNA1",
+      subtitle: "CISCO NETWORKING ACADEMY",
+      text: "Introducción al diseño y configuración de redes, protocolos, direccionamiento IP y administración de routers y switches con un enfoque práctico.",
+      date: "febrero 8 2024 - diciembre 13 2024"
     },
     {
       id: 4,
-      avatar: avatar4,
-      name: "Henry william",
-      text: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
-      date: "2021-03-10"
+      avatar: certification4,
+      name: "CYBERSECURITY FUNDAMENTALS",
+      subtitle: "CISCO NETWORKING ACADEMY",
+      text: "Fundamentos de ciberseguridad, incluyendo análisis de riesgos, amenazas comunes, controles de seguridad y prácticas de protección de información.",
+      date: "febrero 8 2024 - diciembre 13 2024"
+    },
+    {
+      id: 5,
+      avatar: certification3,
+      name: "LINUX ESSENTIALS",
+      subtitle: "CISCO NETWORKING ACADEMY",
+      text: "Introducción a sistemas Linux, administración de usuarios, permisos, scripts básicos y manejo de servicios esenciales en entornos profesionales.",
+      date: "febrero 8 2024 - diciembre 13 2024"
+    },
+    {
+      id: 6,
+      avatar: certification6,
+      name: "YO LIDERO",
+      subtitle: "UDCB",
+      text: "Desarrollo de habilidades de liderazgo, comunicación efectiva, trabajo en equipo y toma de decisiones en contextos profesionales.",
+      date: "febrero 8 2024 - diciembre 13 2024"
+    },
+    {
+      id: 7,
+      avatar: certification7,
+      name: "PROGRAMA DE FORMACIÓN PARA EL TRABAJO",
+      subtitle: "UDCB",
+      text: "Programa orientado a competencias laborales, técnicas y profesionales, enfocado en preparación para el entorno laboral real.",
+      date: "febrero 8 2024 - diciembre 13 2024"
     }
   ];
 
-  // Abrir modal con el testimonio seleccionado
   const openModal = (testimonial) => {
     setSelectedTestimonial(testimonial);
     setIsModalOpen(true);
-    // Deshabilitar scroll del body cuando el modal está abierto
     document.body.style.overflow = 'hidden';
-    
-    // Iniciar animación de entrada
-    setTimeout(() => {
-      setIsModalAnimating(true);
-    }, 10);
+    setTimeout(() => setIsModalAnimating(true), 10);
   };
 
-  // Cerrar modal
   const closeModal = () => {
-    // Iniciar animación de salida
     setIsModalAnimating(false);
-    
-    // Cerrar modal después de la animación
     setTimeout(() => {
       setIsModalOpen(false);
       setSelectedTestimonial(null);
-      // Habilitar scroll del body cuando el modal se cierra
       document.body.style.overflow = 'auto';
-    }, 300); // Duración de la animación
+    }, 300);
   };
 
-  // Cerrar modal al hacer clic fuera del contenido
   const handleOverlayClick = (e) => {
-    if (e.target === e.currentTarget) {
-      closeModal();
-    }
+    if (e.target === e.currentTarget) closeModal();
   };
 
   return (
     <>
       <section className="testimonials">
-        <h3 className="h3 testimonials-title">Testimonials</h3>
+        <h3 className="h3 testimonials-title">Certifications</h3>
 
         <ul className="testimonials-list has-scrollbar">
           {testimonials.map(testimonial => (
@@ -95,16 +111,16 @@ const Testimonials = () => {
               >
                 <figure className="testimonials-avatar-box">
                   <img 
-                    src={testimonial.avatar} // Usa la variable importada
+                    src={testimonial.avatar} 
                     alt={testimonial.name} 
-                    width="60" 
                     data-testimonials-avatar 
                   />
                 </figure>
 
-                <h4 className="h4 testimonials-item-title" data-testimonials-title>
+                <h4 className="cert-title" data-testimonials-title>
                   {testimonial.name}
                 </h4>
+                <p className="cert-subtitle">{testimonial.subtitle}</p>
 
                 <div className="testimonials-text" data-testimonials-text>
                   <p>{testimonial.text.substring(0, 150)}...</p>
@@ -115,7 +131,6 @@ const Testimonials = () => {
         </ul>
       </section>
 
-      {/* Modal de testimonios */}
       {isModalOpen && selectedTestimonial && (
         <div 
           className={`modal-container ${isModalAnimating ? 'active' : ''}`} 
@@ -137,28 +152,23 @@ const Testimonials = () => {
             <div className="modal-img-wrapper">
               <figure className="modal-avatar-box">
                 <img 
-                  src={selectedTestimonial.avatar} // Usa la variable importada
+                  src={selectedTestimonial.avatar} 
                   alt={selectedTestimonial.name} 
                   width="80" 
                   data-modal-img 
                 />
               </figure>
 
-              <img src={quoteIcon} alt="quote icon" /> {/* Usa la variable importada */}
+              <img src={quoteIcon} alt="quote icon" />
             </div>
 
             <div className="modal-content">
-              <h4 className="h3 modal-title" data-modal-title>
+              <h4 className="cert-title modal-title" data-modal-title>
                 {selectedTestimonial.name}
               </h4>
+              <p className="cert-subtitle">{selectedTestimonial.subtitle}</p>
 
-              <time dateTime={selectedTestimonial.date}>
-                {new Date(selectedTestimonial.date).toLocaleDateString('en-US', {
-                  day: 'numeric',
-                  month: 'long',
-                  year: 'numeric'
-                })}
-              </time>
+              <time>{selectedTestimonial.date}</time>
 
               <div data-modal-text>
                 <p>{selectedTestimonial.text}</p>

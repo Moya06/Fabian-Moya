@@ -1,39 +1,41 @@
 import React from 'react';
-// Importa las imágenes directamente
+// Imports the images directly
 import iconDesign from '../assets/img/icon-design.svg';
 import iconDev from '../assets/img/icon-dev.svg';
 import iconApp from '../assets/img/icon-app.svg';
 import iconPhoto from '../assets/img/icon-photo.svg';
+import icondatabase from '../assets/img/icon-Database.svg';
+import iconskills from '../assets/img/icon-skills.svg';
 
 const Services = () => {
   const services = [
     {
       id: 1,
-      icon: iconDesign, // Usa la variable importada
+      icon: iconDesign, // Uses the imported variable
       alt: "design icon",
-      title: "Web design",
-      description: "The most modern and high-quality design made at a professional level."
+      title: "Frontend Development",
+      description: "Experience creating modern and responsive interfaces using HTML, CSS, Tailwind CSS, JavaScript, and React."
     },
     {
       id: 2,
       icon: iconDev,
       alt: "Web development icon",
-      title: "Web development",
-      description: "High-quality development of sites at the professional level."
+      title: "Backend Development",
+      description: "Implementation of business logic with Node.js, ASP.NET, and C#, connecting APIs and efficiently managing data."
     },
     {
       id: 3,
-      icon: iconApp,
-      alt: "mobile app icon",
-      title: "Mobile apps",
-      description: "Professional development of applications for iOS and Android."
+      icon: icondatabase,
+      alt: "Database Management icon",
+      title: "Database Management",
+      description: "Design and querying of databases with SQL Server and MongoDB for dynamic web applications."
     },
     {
       id: 4,
-      icon: iconPhoto,
-      alt: "camera icon",
-      title: "Photography",
-      description: "I make high-quality photos of any category at a professional level."
+      icon: iconskills,
+      alt: "Skills icon",
+      title: "Soft Skills & Teamwork",
+      description: "Empathy, effective communication, and proactivity to collaborate on software development projects."
     }
   ];
 
@@ -44,10 +46,10 @@ const Services = () => {
         {services.map(service => (
           <li key={service.id} className="service-item">
             <div className="service-icon-box">
-              <img 
-                src={service.icon} // Usa la variable importada
-                alt={service.alt} 
-                width="40" 
+              <img
+                src={service.icon} // Uses the imported variable
+                alt={service.alt}
+                width="40"
               />
             </div>
             <div className="service-content-box">
@@ -62,3 +64,5 @@ const Services = () => {
 };
 
 export default Services;
+
+// #eab753

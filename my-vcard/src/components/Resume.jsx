@@ -5,53 +5,66 @@ const Resume = () => {
   const education = [
     {
       id: 1,
-      title: "University school of the arts",
-      period: "2007 — 2008",
-      description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      title: "Fidelitas University",
+      period: "CURRENT 2025",
+      description: "SOFTWARE DEVELOPMENT ENGINEERING"
     },
     {
       id: 2,
-      title: "New york academy of art",
-      period: "2006 — 2007",
-      description: "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis."
+      title: "CEDES DON BOSCO TECHNICAL PROFESSIONAL COLLEGE",
+      period: "2019-2024",
+      description: "HIGH SCHOOL"
     },
     {
       id: 3,
-      title: "High school of art and design",
-      period: "2002 — 2004",
-      description: "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+      title: "CEDES DON BOSCO TECHNICAL PROFESSIONAL COLLEGE",
+      period: "2022-2024",
+      description: "WEB DEVELOPMENT TECHNICIAN"
     }
   ];
 
-  // Datos de experiencia
+  // Datos de experiencia (con lista de puntos)
   const experience = [
     {
       id: 1,
-      title: "Creative director",
-      period: "2015 — Present",
-      description: "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+      title: "Software Developer Intern | AST_Software",
+      period: "January 2025 - July 2025",
+      tasks: [
+        "• Developed dynamic and attractive web interfaces using HTML and CSS",
+        "• Implemented backend logic in C# and ASP.NET for data extraction through SQL queries.",
+        "• Added features according to requirements discussed inplanning meetings."
+      ]
     },
     {
       id: 2,
-      title: "Art director",
-      period: "2013 — 2015",
-      description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      title: "Web Development Internship | MOPT",
+      period: "October 2024 - November 2024",
+      tasks: [
+        "• Improved user experience (UX) by implementing responsive styles with CSS.",
+        "• Developed CRUD functionalities connected to a database, allowing viewing, modifying, deleting, and storing records.",
+        "• Collaborated on enhancing the graphical interface and integrating frontend with backend."
+      ]
     },
     {
       id: 3,
-      title: "Web designer",
-      period: "2010 — 2013",
-      description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      title: "Open Source Contributor | VolunChain-Backend",
+      period: "2023 — Presente",
+      tasks: [
+        "Fixed incorrect routes and improved navigation flow.",
+        "Fixed functional bugs to ensure correct behavior of key features."
+      ]
     }
   ];
 
   // Datos de habilidades
   const skills = [
-    { id: 1, name: "Web design", percentage: 80 },
-    { id: 2, name: "Graphic design", percentage: 70 },
-    { id: 3, name: "Branding", percentage: 90 },
-    { id: 4, name: "WordPress", percentage: 50 }
-  ];
+    { id: 1, name: "Frontend Developmentg", percentage: 95 },
+    { id: 2, name: " Backend Development", percentage: 85 },
+    { id: 3, name: "Database Management", percentage: 80 },
+    { id: 4, name: "Operating Systems:", percentage: 80 },
+    { id: 5, name: "Cybersecurity", percentage: 70 },
+    { id: 6, name: "Version Control:", percentage: 90 },
+  ];  
 
   return (
     <article className="resume" data-page="resume">
@@ -93,7 +106,11 @@ const Resume = () => {
             <li key={item.id} className="timeline-item">
               <h4 className="h4 timeline-item-title">{item.title}</h4>
               <span>{item.period}</span>
-              <p className="timeline-text">{item.description}</p>
+              <ul className="timeline-text list-disc pl-5">
+                {item.tasks.map((task, index) => (
+                  <li key={index}>{task}</li>
+                ))}
+              </ul>
             </li>
           ))}
         </ol>
@@ -112,8 +129,8 @@ const Resume = () => {
               </div>
 
               <div className="skill-progress-bg">
-                <div 
-                  className="skill-progress-fill" 
+                <div
+                  className="skill-progress-fill"
                   style={{ width: `${skill.percentage}%` }}
                 ></div>
               </div>

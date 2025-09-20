@@ -12,13 +12,11 @@ const About = () => {
       
       <section className="about-text">
         <p>
-          I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-          I enjoy turning complex problems into simple, beautiful and intuitive designs.
+         I'm a Web Developer with a strong command of multiple programming languages and frameworks. I possess a proven ability to quickly learn and adapt to new technologies, which allows me to thrive in dynamic development environments.
+         My collaborative nature and strong work ethic enable me to integrate effectively into any team, actively contributing to shared goals.
         </p>
         <p>
-          My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-          Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to
-          bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+         I thrive on constant challenges where I can apply my technical skills in an environment that fosters continuous growth. I'm passionate about staying up-to-date with the latest trends and technologies, always committed to adding significant value to everything I undertake, and I strive to give my best in every task.
         </p>
       </section>
       

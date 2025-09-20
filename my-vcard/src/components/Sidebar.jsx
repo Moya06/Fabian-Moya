@@ -10,11 +10,12 @@ const Sidebar = () => {
     <aside className="sidebar" data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src={myAvatar} alt="Richard hanrick" width="80" />
+          <img src={myAvatar} alt="Fabián Moya" width="80" />
         </figure>
         <div className="info-content">
-          <h1 className="name" title="Richard hanrick">Richard hanrick</h1>
-          <p className="title">Web developer</p>
+          <h1 className="name" title="Fabián Moya">Fabián Moya</h1>
+          <p className="title">Full Stack Web Developer</p>
+          <p className="title2">Software Engineering Student</p>
         </div>
         <button 
           className="info_more-btn" 
@@ -35,7 +36,7 @@ const Sidebar = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Email</p>
-              <a href="mailto:richard@example.com" className="contact-link">richard@example.com</a>
+              <a href="mailto:fabianmoyawork@gmail.com" className="contact-link">fabianmoyawork@gmail.com</a>
             </div>
           </li>
           <li className="contact-item">
@@ -44,7 +45,7 @@ const Sidebar = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Phone</p>
-              <a href="tel:+12133522795" className="contact-link">+1 (213) 352-2795</a>
+              <a href="tel: + 506 87865514" className="contact-link">+506 8786-5514</a>
             </div>
           </li>
           <li className="contact-item">
@@ -53,7 +54,7 @@ const Sidebar = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Birthday</p>
-              <time dateTime="2025-09-18">Sept 18, 2025</time>
+              <time dateTime="2025-09-18">april 6, 2006</time>
             </div>
           </li>
           <li className="contact-item">
@@ -62,7 +63,7 @@ const Sidebar = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Location</p>
-              <address>Sacramento, California, USA</address>
+              <address>Curridabat, San José, Costa Rica</address>
             </div>
           </li>
         </ul>
