@@ -23,7 +23,7 @@ const Testimonials = () => {
       name: "PROGRAMMING ESSENTIALS IN PYTHON",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Curso introductorio a la programación con Python, enfocándose en lógica, estructuras de datos, funciones, y buenas prácticas de desarrollo de software.",
-      date: "febrero 8 2024 - diciembre 13 2024"
+      date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Testimonials = () => {
       name: "IT ESSENTIALS",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Fundamentos de hardware, software y redes, incluyendo diagnóstico de sistemas, instalación de componentes y soporte técnico básico profesional.",
-      date: "febrero 8 2024 - diciembre 13 2024"
+      date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Testimonials = () => {
       name: "CCNA1",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Introducción al diseño y configuración de redes, protocolos, direccionamiento IP y administración de routers y switches con un enfoque práctico.",
-      date: "febrero 8 2024 - diciembre 13 2024"
+      date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
     {
       id: 4,
@@ -47,7 +47,7 @@ const Testimonials = () => {
       name: "CYBERSECURITY FUNDAMENTALS",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Fundamentos de ciberseguridad, incluyendo análisis de riesgos, amenazas comunes, controles de seguridad y prácticas de protección de información.",
-      date: "febrero 8 2024 - diciembre 13 2024"
+      date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
     {
       id: 5,
@@ -55,7 +55,7 @@ const Testimonials = () => {
       name: "LINUX ESSENTIALS",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Introducción a sistemas Linux, administración de usuarios, permisos, scripts básicos y manejo de servicios esenciales en entornos profesionales.",
-      date: "febrero 8 2024 - diciembre 13 2024"
+      date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
     {
       id: 6,
@@ -63,7 +63,7 @@ const Testimonials = () => {
       name: "YO LIDERO",
       subtitle: "UDCB",
       text: "Desarrollo de habilidades de liderazgo, comunicación efectiva, trabajo en equipo y toma de decisiones en contextos profesionales.",
-      date: "febrero 8 2024 - diciembre 13 2024"
+      date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
     {
       id: 7,
@@ -71,7 +71,7 @@ const Testimonials = () => {
       name: "PROGRAMA DE FORMACIÓN PARA EL TRABAJO",
       subtitle: "UDCB",
       text: "Programa orientado a competencias laborales, técnicas y profesionales, enfocado en preparación para el entorno laboral real.",
-      date: "febrero 8 2024 - diciembre 13 2024"
+      date: "Febrero 8, 2024 - Diciembre 13, 2024"
     }
   ];
 

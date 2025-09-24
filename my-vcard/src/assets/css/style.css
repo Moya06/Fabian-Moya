@@ -378,28 +378,25 @@ main {
   border-radius: 0 15px;
   font-size: 13px;
   color: var(--orange-yellow-crayola);
-  background: var(--border-gradient-onyx);
+  background: var(--onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
+  
+  /* AGREGAR ESTO */
+  cursor: pointer;
 }
 
-.info_more-btn::before {
-  content: "";
-  position: absolute;
-  inset: 1px;
-  border-radius: inherit;
-  background: var(--bg-gradient-jet);
-  transition: var(--transition-1);
-  z-index: -1;
+.info_more-btn:hover {
+  opacity: 0.7 !important;
+  transform: scale(1.05) !important;
 }
 
-.info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
-
-.info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
+.info_more-btn:active {
+  opacity: 0.5 !important;
+  transform: scale(0.95) !important;
+}
 
 .info_more-btn span { display: none; }
 
@@ -856,7 +853,7 @@ main {
 
 .skills-title {
   font-size: 2em;
-  color: #ffcc33;
+  color: var(--vegas-gold);
   text-align: left;
   margin-bottom: 20px;
   border-bottom: 2px solid var(--vegas-gold);
@@ -1248,7 +1245,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn {
   position: relative;
   width: 100%;
-  background: var(--border-gradient-onyx);
+  background: var(--onyx);
   color: var(--orange-yellow-crayola);
   display: flex;
   justify-content: center;
@@ -1267,26 +1264,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--onyx);
   border-radius: inherit;
   z-index: -1;
-  transition: var(--transition-1);
 }
 
 .form-btn ion-icon { font-size: 16px; }
 
-.form-btn:hover { background: var(--bg-gradient-yellow-1); }
 
-.form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
 
 .form-btn:disabled {
   opacity: 0.7;
   cursor: not-allowed;
 }
 
-.form-btn:disabled:hover { background: var(--border-gradient-onyx); }
-
-.form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
 

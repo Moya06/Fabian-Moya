@@ -54,36 +54,38 @@ const Sidebar = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Birthday</p>
-              <time dateTime="2025-09-18">april 6, 2006</time>
+              <time dateTime="2025-09-18">April 6, 2006</time>
             </div>
           </li>
-          <li className="contact-item">
-            <div className="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-            <div className="contact-info">
-              <p className="contact-title">Location</p>
-              <address>Curridabat, San José, Costa Rica</address>
-            </div>
-          </li>
-        </ul>
-        <div className="separator"></div>
-        <ul className="social-list">
-          <li className="social-item">
-            <a href="#" className="social-link">
-              <ion-icon className="socials-icons" name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-          <li className="social-item">
-            <a href="#" className="social-link">
-              <ion-icon className="socials-icons" name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-          <li className="social-item">
-            <a href="#" className="social-link">
-              <ion-icon className="socials-icons" name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+       <ul className="social-list">
+  {/* <li className="social-item">
+    <a href="#" className="social-link">
+      <ion-icon className="socials-icons" name="logo-facebook"></ion-icon>
+    </a>
+  </li>
+  <li className="social-item">
+    <a href="#" className="social-link">
+      <ion-icon className="socials-icons" name="logo-twitter"></ion-icon>
+    </a>
+  </li>
+  <li className="social-item">
+    <a href="#" className="social-link">
+      <ion-icon className="socials-icons" name="logo-instagram"></ion-icon>
+    </a>
+  </li> */}
+  <li className="social-item">
+    <a href="https://www.linkedin.com/in/fabian-moya-06f0323/" target="_blank" rel="noopener noreferrer" className="social-link">
+      <ion-icon className="socials-icons" name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+  <li className="social-item">
+  <a href="https://wa.me/50687865514" target="_blank" rel="noopener noreferrer" className="social-link">
+    <ion-icon className="socials-icons" name="logo-whatsapp"></ion-icon>
+  </a>
+</li>
+
+</ul>
+
         </ul>
       </div>
     </aside>
