@@ -57,14 +57,7 @@ const Resume = () => {
   ];
 
   // Datos de habilidades
-  const skills = [
-    { id: 1, name: "Frontend Developmentg", percentage: 95 },
-    { id: 2, name: " Backend Development", percentage: 85 },
-    { id: 3, name: "Database Management", percentage: 80 },
-    { id: 4, name: "Operating Systems:", percentage: 80 },
-    { id: 5, name: "Cybersecurity", percentage: 70 },
-    { id: 6, name: "Version Control:", percentage: 90 },
-  ];  
+ 
 
   return (
     <article className="resume" data-page="resume">
@@ -116,28 +109,49 @@ const Resume = () => {
         </ol>
       </section>
 
-      {/* Sección de Habilidades */}
-      <section className="skill">
-        <h3 className="h3 skills-title">My skills</h3>
+{/* Sección de Habilidades */}
+<section className="skills-section">
+  <h3 className="skills-title">My Skills</h3>
 
-        <ul className="skills-list content-card">
-          {skills.map(skill => (
-            <li key={skill.id} className="skills-item">
-              <div className="title-wrapper">
-                <h5 className="h5">{skill.name}</h5>
-                <data value={skill.percentage}>{skill.percentage}%</data>
-              </div>
+  <div className="skills-card">
+    {/* Hard Skills */}
+    <div className="skills-column">
+      <h4>Hard Skills</h4>
+      <ul>
+        <li>Frontend: HTML5, CSS, Tailwind CSS, JavaScript, React</li>
+        <li>Backend: Node.js, ASP.NET, C#, Python</li>
+        <li>Databases: SQL Server, MongoDB</li>
+        <li>Operating Systems: Linux, Windows</li>
+        <li>Cybersecurity: IT Essentials, Cybersecurity Basics</li>
+        <li>Version Control: Git, GitHub</li>
+        <li>Microsoft Office: Word, PowerPoint, Excel</li>
+      </ul>
+    </div>
 
-              <div className="skill-progress-bg">
-                <div
-                  className="skill-progress-fill"
-                  style={{ width: `${skill.percentage}%` }}
-                ></div>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
+    {/* Soft Skills */}
+    <div className="skills-column">
+      <h4>Soft Skills</h4>
+      <ul>
+        <li>Empathy</li>
+        <li>Kindness</li>
+        <li>Respect</li>
+        <li>Effective Communication</li>
+        <li>Teamwork</li>
+        <li>Adaptability</li>
+        <li>Proactivity</li>
+        {/* Habilidades adicionales recomendadas */}
+        <li>Problem Solving</li>
+        <li>Critical Thinking</li>
+        <li>Time Management</li>
+        <li>Continuous Learning</li>
+        <li>Attention to Detail</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
     </article>
   );
 };
