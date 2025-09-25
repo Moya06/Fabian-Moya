@@ -1,11 +1,11 @@
 import React from 'react';
 // Imports the images directly
-import iconDesign from '../assets/img/icon-design.svg';
-import iconDev from '../assets/img/icon-dev.svg';
-import iconApp from '../assets/img/icon-app.svg';
-import iconPhoto from '../assets/img/icon-photo.svg';
-import icondatabase from '../assets/img/icon-Database.svg';
-import iconskills from '../assets/img/icon-skills.svg';
+import iconDesign from '../assets/img/icon-design.png';
+import iconDev from '../assets/img/icon-dev.png';
+// import iconApp from '../assets/img/icon-app.png';
+// import iconPhoto from '../assets/img/icon-photo.png';
+import icondatabase from '../assets/img/icon-Database.png';
+import iconskills from '../assets/img/icon-skills.png';
 
 const Services = () => {
   const services = [

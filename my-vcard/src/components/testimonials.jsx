@@ -9,7 +9,7 @@ import certification4 from '../assets/img/certification-4.png';
 import certification5 from '../assets/img/certification-5.png';
 import certification6 from '../assets/img/certification-6.png';
 import certification7 from '../assets/img/certification-7.png';
-import quoteIcon from '../assets/img/icon-quote.svg';
+import quoteIcon from '../assets/img/icon-quote.png';
 
 const Testimonials = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -159,7 +159,17 @@ const Testimonials = () => {
                 />
               </figure>
 
-              <img src={quoteIcon} alt="quote icon" />
+<img
+  src={quoteIcon}
+  alt="quote icon"
+  style={{
+    width: '40px',
+    height: '40px',
+    objectFit: 'contain',
+    marginRight: '6px',
+    verticalAlign: 'middle'
+  }}
+/>
             </div>
 
             <div className="modal-content">
