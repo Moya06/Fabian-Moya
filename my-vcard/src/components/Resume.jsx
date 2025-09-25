@@ -116,17 +116,53 @@ const Resume = () => {
   <div className="skills-card">
     {/* Hard Skills */}
     <div className="skills-column">
-      <h4>Hard Skills</h4>
-      <ul>
-        <li>Frontend: HTML5, CSS, Tailwind CSS, JavaScript, React</li>
-        <li>Backend: Node.js, ASP.NET, C#, Python</li>
-        <li>Databases: SQL Server, MongoDB</li>
-        <li>Operating Systems: Linux, Windows</li>
-        <li>Cybersecurity: IT Essentials, Cybersecurity Basics</li>
-        <li>Version Control: Git, GitHub</li>
-        <li>Microsoft Office: Word, PowerPoint, Excel</li>
+         <h4 style={{ marginBottom: '12px' }}>Hard Skills</h4>
+      <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+        <li style={{ marginBottom: '10px' }}>
+          <span style={{ color: '#27AE60', fontSize: '15px', fontWeight: 'bold' }}>
+            Frontend:
+          </span>{' '}
+          HTML5, CSS, Tailwind CSS, JavaScript, React
+        </li>
+        <li style={{ marginBottom: '10px' }}>
+          <span style={{ color: '#27AE60', fontSize: '15px', fontWeight: 'bold' }}>
+            Backend:
+          </span>{' '}
+          Node.js, ASP.NET, C#, Python
+        </li>
+        <li style={{ marginBottom: '10px' }}>
+          <span style={{ color: '#27AE60', fontSize: '15px', fontWeight: 'bold' }}>
+            Databases:
+          </span>{' '}
+          SQL Server, MongoDB
+        </li>
+        <li style={{ marginBottom: '10px' }}>
+          <span style={{ color: '#27AE60', fontSize: '15px', fontWeight: 'bold' }}>
+            Operating Systems:
+          </span>{' '}
+          Linux, Windows
+        </li>
+        <li style={{ marginBottom: '10px' }}>
+          <span style={{ color: '#27AE60', fontSize: '15px', fontWeight: 'bold' }}>
+            Cybersecurity:
+          </span>{' '}
+          IT Essentials, Cybersecurity Basics
+        </li>
+        <li style={{ marginBottom: '10px' }}>
+          <span style={{ color: '#27AE60', fontSize: '15px', fontWeight: 'bold' }}>
+            Version Control:
+          </span>{' '}
+          Git, GitHub
+        </li>
+        <li style={{ marginBottom: '10px' }}>
+          <span style={{ color: '#27AE60', fontSize: '15px', fontWeight: 'bold' }}>
+            Microsoft Office:
+          </span>{' '}
+          Word, PowerPoint, Excel
+        </li>
       </ul>
     </div>
+   
 
     {/* Soft Skills */}
     <div className="skills-column">
