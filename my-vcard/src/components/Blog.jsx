@@ -20,8 +20,8 @@ const blogPosts = [
             
             <p>Having these skills strengthened is a key step toward my long-term goal of focusing on artificial intelligence, as Python is such a crucial tool in that field. I'm motivated to keep learning and applying these skills to future AI projects! 🚀</p>
             
-            <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(197, 157, 95, 0.1); border-radius: 8px;">
-                <h4 style="color: var(--vegas-gold); margin-bottom: 0.5rem;">Skills Acquired:</h4>
+            <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(30, 132, 73, 0.1); border-radius: 8px;">
+                <h4 style="color: #1E8449; margin-bottom: 0.5rem;">Skills Acquired:</h4>
                 <ul style="margin: 0; padding-left: 1.2rem;">
                     <li>Python syntax and semantics</li>
                     <li>Object-oriented programming</li>
@@ -32,13 +32,13 @@ const blogPosts = [
             </div>
             
             <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#OpenEDG</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#PCAP</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Python</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Programming</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ArtificialIntelligence</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#OpenEDG</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#PCAP</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Python</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Programming</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ArtificialIntelligence</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
             </div>
         `
   },
@@ -61,14 +61,14 @@ const blogPosts = [
             <p>Understanding multiple operating systems is key for any developer or IT professional, and this experience strengthened my ability to work efficiently across different platforms. I'm motivated to continue exploring and mastering diverse technologies! 🚀</p>
             
             <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#NetworkDevelopmentGroup</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#NDGLinuxEssentials</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#LinuxEssentials</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Linux</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Programming</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ITSkills</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#NetworkDevelopmentGroup</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#NDGLinuxEssentials</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#LinuxEssentials</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Linux</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Programming</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ITSkills</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
             </div>
         `
   },
@@ -91,12 +91,12 @@ const blogPosts = [
             <p>This experience strengthened my ability to lead, collaborate, and contribute to any team in a meaningful way. I'm excited to continue applying these skills in my professional journey! 💼✨</p>
             
             <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CEDESDonBosco</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Leadership</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#SoftSkills</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Teamwork</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ProfessionalGrowth</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CEDESDonBosco</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Leadership</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#SoftSkills</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Teamwork</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ProfessionalGrowth</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
             </div>
         `
   },
@@ -116,8 +116,8 @@ const blogPosts = [
             
             <p>This course has not only strengthened my technical skills but also highlighted the importance of reliable and secure networks in every aspect of technology. I'm excited to keep applying this knowledge and continue advancing in my career. 🚀</p>
             
-            <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(197, 157, 95, 0.1); border-radius: 8px;">
-                <h4 style="color: var(--vegas-gold); margin-bottom: 0.5rem;">Skills Acquired:</h4>
+            <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(30, 132, 73, 0.1); border-radius: 8px;">
+                <h4 style="color: #1E8449; margin-bottom: 0.5rem;">Skills Acquired:</h4>
                 <ul style="margin: 0; padding-left: 1.2rem;">
                     <li>Network fundamentals and architecture</li>
                     <li>IP addressing and subnetting</li>
@@ -128,12 +128,12 @@ const blogPosts = [
             </div>
             
             <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CiscoNetworkingAcademy</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CCNA</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Networking</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ITSkills</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Cybersecurity</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CiscoNetworkingAcademy</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CCNA</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Networking</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ITSkills</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Cybersecurity</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
             </div>
         `
   },
@@ -151,8 +151,8 @@ const blogPosts = [
         
         <p>It was an amazing experience where I learned how to:</p>
         
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(197, 157, 95, 0.1); border-radius: 8px;">
-            <h4 style="color: var(--vegas-gold); margin-bottom: 0.5rem;">Skills Acquired:</h4>
+        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(30, 132, 73, 0.1); border-radius: 8px;">
+            <h4 style="color: #1E8449; margin-bottom: 0.5rem;">Skills Acquired:</h4>
             <ul style="margin: 0; padding-left: 1.2rem;">
                 <li>Build and maintain computers</li>
                 <li>Install and troubleshoot operating systems</li>
@@ -163,12 +163,12 @@ const blogPosts = [
         <p>This course gave me a solid foundation and made me even more passionate about technology. Excited to keep learning and applying these skills in real projects! 🚀</p>
         
         <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#LearningJourney</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ITEssentials</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CiscoNetworkingAcademy</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#TechSkills</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Cybersecurity</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Networking</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#LearningJourney</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ITEssentials</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CiscoNetworkingAcademy</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#TechSkills</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Cybersecurity</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Networking</span>
         </div>
     `
   },
@@ -186,8 +186,8 @@ const blogPosts = [
         
         <p>This program gave me hands-on experience in:</p>
         
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(197, 157, 95, 0.1); border-radius: 8px;">
-            <h4 style="color: var(--vegas-gold); margin-bottom: 0.5rem;">Skills Acquired:</h4>
+        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(30, 132, 73, 0.1); border-radius: 8px;">
+            <h4 style="color: #1E8449; margin-bottom: 0.5rem;">Skills Acquired:</h4>
             <ul style="margin: 0; padding-left: 1.2rem;">
                 <li>Understanding cybersecurity fundamentals and analyzing threats</li>
                 <li>Protecting networks and responding to incidents</li>
@@ -199,11 +199,11 @@ const blogPosts = [
         <p>It was an amazing learning journey that strengthened my skills and confirmed my passion for cybersecurity. I'm excited to continue exploring this field and taking on new challenges! 💻✨</p>
         
         <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Cybersecurity</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CiscoNetworkingAcademy</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#InfoSec</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CyberDefense</span>
-            <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Cybersecurity</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CiscoNetworkingAcademy</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#InfoSec</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CyberDefense</span>
+            <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CareerGrowth</span>
         </div>
     `
   },
@@ -225,8 +225,8 @@ const blogPosts = [
             
             <p>I'm grateful for this experience and motivated to keep applying both my hard and soft skills in my journey as a professional. 💼✨</p>
             
-            <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(197, 157, 95, 0.1); border-radius: 8px;">
-                <h4 style="color: var(--vegas-gold); margin-bottom: 0.5rem;">Key Soft Skills Developed:</h4>
+            <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(30, 132, 73, 0.1); border-radius: 8px;">
+                <h4 style="color: #1E8449; margin-bottom: 0.5rem;">Key Soft Skills Developed:</h4>
                 <ul style="margin: 0; padding-left: 1.2rem;">
                     <li>Effective communication and active listening</li>
                     <li>Team collaboration and conflict resolution</li>
@@ -237,12 +237,12 @@ const blogPosts = [
             </div>
             
             <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CEDESDonBosco</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#SoftSkills</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ProfessionalGrowth</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Teamwork</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Communication</span>
-                <span style="background: rgba(197, 157, 95, 0.2); color: var(--vegas-gold); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#CEDESDonBosco</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#SoftSkills</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ProfessionalGrowth</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Teamwork</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#Communication</span>
+                <span style="background: rgba(30, 132, 73, 0.2); color: #1E8449; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">#ContinuousLearning</span>
             </div>
         `
   }
@@ -449,7 +449,7 @@ const Blog = () => {
                   <span className="blog-tecnology" style={{
                     fontWeight: '600',
                     color: 'var(--vegas-gold)',
-                    background: 'rgba(197, 157, 95, 0.1)',
+                    background: 'rgba(30, 132, 73, 0.1)',
                     padding: '2px 6px',
                     borderRadius: '4px'
                   }}>
@@ -566,7 +566,7 @@ const Blog = () => {
 
             <div style={{ marginBottom: '1rem' }}>
               <span style={{
-                background: 'rgba(197, 157, 95, 0.1)',
+                background: 'rgba(30, 132, 73, 0.1)',
                 color: 'var(--vegas-gold)',
                 padding: '0.3rem 0.8rem',
                 borderRadius: '4px',
