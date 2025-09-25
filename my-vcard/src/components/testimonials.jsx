@@ -19,7 +19,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      avatar: certification5,
+      avatar: certification1,
       name: "PROGRAMMING ESSENTIALS IN PYTHON",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Curso introductorio a la programación con Python, enfocándose en lógica, estructuras de datos, funciones, y buenas prácticas de desarrollo de software.",
@@ -27,7 +27,7 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      avatar: certification1,
+      avatar: certification2,
       name: "IT ESSENTIALS",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Fundamentos de hardware, software y redes, incluyendo diagnóstico de sistemas, instalación de componentes y soporte técnico básico profesional.",
@@ -35,7 +35,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      avatar: certification2,
+      avatar: certification3,
       name: "CCNA1",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Introducción al diseño y configuración de redes, protocolos, direccionamiento IP y administración de routers y switches con un enfoque práctico.",
@@ -51,7 +51,7 @@ const Testimonials = () => {
     },
     {
       id: 5,
-      avatar: certification3,
+      avatar: certification5,
       name: "LINUX ESSENTIALS",
       subtitle: "CISCO NETWORKING ACADEMY",
       text: "Introducción a sistemas Linux, administración de usuarios, permisos, scripts básicos y manejo de servicios esenciales en entornos profesionales.",
