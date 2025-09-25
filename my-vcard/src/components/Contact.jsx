@@ -132,7 +132,7 @@ Este mensaje fue enviado desde el formulario de contacto`;
   };
 
   const okButtonStyles = {
-    backgroundColor: '#c5a028',
+    backgroundColor: '#1e8449',
     textAlign: 'center',
     color: '#1a1a1a',
     border: 'none',
@@ -191,8 +191,8 @@ Este mensaje fue enviado desde el formulario de contacto`;
               <button 
                 style={okButtonStyles}
                 onClick={() => setShowModal(false)}
-                onMouseOver={(e) => e.target.style.backgroundColor = '#d4b436'}
-                onMouseOut={(e) => e.target.style.backgroundColor = '#c5a028'}
+                onMouseOver={(e) => e.target.style.backgroundColor = '#1e8449'}
+                onMouseOut={(e) => e.target.style.backgroundColor = '#1e8449'}
               >
                 Okay
               </button>
@@ -263,7 +263,7 @@ Este mensaje fue enviado desde el formulario de contacto`;
     disabled={!isFormValid || isLoading}
     style={{
         backgroundColor: isFormValid && !isLoading ? '#1a1a1a' : '#1a1a1a ',
-        color: isFormValid && !isLoading ? '#c5a028' : '#999',
+        color: isFormValid && !isLoading ? '#1e8449' : '#999',
         cursor: isFormValid && !isLoading ? 'pointer' : 'not-allowed',
         width: '100%',
         padding: '10px',

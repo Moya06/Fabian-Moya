@@ -10,7 +10,7 @@ const Sidebar = () => {
     <aside className="sidebar" data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src={myAvatar} alt="Fabián Moya" width="80" />
+          <img src={myAvatar} alt="Fabián Moya" width="80" style={{ marginBottom: '-12px' }} />
         </figure>
         <div className="info-content">
           <h1 className="name" title="Fabián Moya">Fabián Moya</h1>
