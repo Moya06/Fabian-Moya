@@ -47,8 +47,8 @@ const Resume = () => {
     },
     {
       id: 3,
-      title: "Open Source Contributor | VolunChain-Backend",
-      period: "2023 — Presente",
+      title: "Open Source Contributor | Onlydust",
+      period: "2025 — Presente",
       tasks: [
         "Fixed incorrect routes and improved navigation flow.",
         "Fixed functional bugs to ensure correct behavior of key features."

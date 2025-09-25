@@ -104,7 +104,7 @@ const blogPosts = [
     id: 4,
     image: blog4,
     alt: "Networks",
-    category: "Certification",
+    category: "New Knowledge",
     tecnology: "Cisco CCNA",
     date: "Sep 18, 2025",
     title: "CCNA: Introduction to Networks",
