@@ -59,7 +59,7 @@ const Services = () => {
           </li>
         ))}
       </ul>
-    </section>
+    </section>  
   );
 };
 
