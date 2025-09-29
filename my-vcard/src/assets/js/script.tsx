@@ -119,7 +119,7 @@ function initializeNavigation() {
   console.log('Pages found:', pages.length);
 
   // Add event to all nav link
-  navigationLinks.forEach((link, i) => {
+  navigationLinks.forEach((link) => {
     link.addEventListener("click", (): void => {
       const targetPage = link.textContent?.toLowerCase() || "";
       console.log('Clicked on:', targetPage);
