@@ -17,14 +17,15 @@ const Sidebar = () => {
           <p className="title">Full Stack Web Developer</p>
           <p className="title2">Software Engineering Student</p>
         </div>
-        <button 
-          className="info_more-btn" 
-          data-sidebar-btn
-          onClick={() => setIsContactsVisible(!isContactsVisible)}
-        >
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+ <button 
+  className="info_more-btn" 
+  data-sidebar-btn
+  onClick={() => setIsContactsVisible(!isContactsVisible)}
+>
+  {/* El texto cambia dinámicamente basado en el estado */}
+  <span>{isContactsVisible ? 'Hide Contacts' : 'Show Contacts'}</span>
+  <ion-icon name="chevron-down"></ion-icon>
+</button>
       </div>
       
       <div className={`sidebar-info_more ${isContactsVisible ? 'active' : ''}`}>
