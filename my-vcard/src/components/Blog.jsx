@@ -1,14 +1,22 @@
 import React, { useState, useEffect } from 'react';
+// Importa tus imágenes para escritorio
 import blog1 from '../assets/img/blog-1.jpeg';
 import blog2 from '../assets/img/blog-2.jpeg';
 import blog3 from '../assets/img/blog-3.jpg';
 import blog4 from '../assets/img/blog-4.jpg';
 import blog5 from '../assets/img/blog-5.jpeg';
 
+// Importa tus imágenes para móvil (debes crear estas versiones)
+import blog1Mobile from '../assets/img/blog-1-mobile.jpg';
+import blog2Mobile from '../assets/img/blog-2-mobile.jpeg';
+import blog3Mobile from '../assets/img/blog-3-mobile.png';
+
+
 const blogPosts = [
   {
     id: 1,
     image: blog1,
+    imageMobile: blog1Mobile,
     alt: "Python",
     category: "Certification",
     tecnology: "Python",
@@ -75,6 +83,7 @@ const blogPosts = [
   {
     id: 3,
     image: blog3,
+    imageMobile: blog3Mobile,
     alt: "Learning",
     category: "Certification",
     tecnology: "Leadership",
@@ -103,6 +112,7 @@ const blogPosts = [
   {
     id: 4,
     image: blog4,
+    imageMobile: blog3Mobile,
     alt: "Networks",
     category: "New Knowledge",
     tecnology: "Cisco CCNA",
@@ -140,6 +150,7 @@ const blogPosts = [
   {
     id: 5,
     image: blog4,
+    imageMobile: blog2Mobile,
     alt: "Cisco",
     category: "Certification",
     tecnology: "Cisco IT Essentials",
@@ -175,6 +186,7 @@ const blogPosts = [
   {
     id: 6,
     image: blog5,
+    imageMobile: blog3Mobile,
     alt: "Cybersecurity",
     category: "Certification",
     tecnology: "Cybersecurity",
@@ -210,6 +222,7 @@ const blogPosts = [
   {
     id: 7,
     image: blog3,
+    imageMobile: blog2Mobile,
     alt: "Skills",
     category: "Certification",
     tecnology: "Soft Skills",
@@ -424,17 +437,22 @@ const Blog = () => {
               onClick={() => openModal(post)}
             >
               <figure className="blog-banner-box" style={{ margin: 0, marginBottom: '1rem' }}>
-                <img
-                  src={post.image}
-                  alt={post.alt}
-                  loading="lazy"
-                  style={{
-                    width: '100%',
-                    height: '200px',
-                    objectFit: 'cover',
-                    borderRadius: '8px'
-                  }}
-                />
+                {/* Elemento picture para imágenes responsive */}
+                <picture>
+                  <source media="(max-width: 768px)" srcSet={post.imageMobile} />
+                  <source media="(min-width: 769px)" srcSet={post.image} />
+                  <img
+                    src={post.image} // Fallback
+                    alt={post.alt}
+                    loading="lazy"
+                    style={{
+                      width: '100%',
+                      height: '200px',
+                      objectFit: 'cover',
+                      borderRadius: '8px'
+                    }}
+                  />
+                </picture>
               </figure>
               <div className="blog-content" style={{ padding: '0' }}>
                 <div className="blog-meta" style={{
@@ -552,16 +570,21 @@ const Blog = () => {
             </button>
 
             <figure style={{ marginBottom: '1.5rem' }}>
-              <img
-                src={selectedEntry.image}
-                alt={selectedEntry.alt}
-                style={{
-                  width: '100%',
-                  height: '400px',
-                  objectFit: 'cover',
-                  borderRadius: '8px'
-                }}
-              />
+              {/* Elemento picture también en el modal */}
+              <picture>
+                <source media="(max-width: 768px)" srcSet={selectedEntry.imageMobile} />
+                <source media="(min-width: 769px)" srcSet={selectedEntry.image} />
+                <img
+                  src={selectedEntry.image}
+                  alt={selectedEntry.alt}
+                  style={{
+                    width: '100%',
+                    height: '400px',
+                    objectFit: 'cover',
+                    borderRadius: '8px'
+                  }}
+                />
+              </picture>
             </figure>
 
             <div style={{ marginBottom: '1rem' }}>
