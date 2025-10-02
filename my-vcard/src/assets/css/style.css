@@ -849,40 +849,159 @@ main {
   max-width: 900px;
   margin: 50px auto;
   padding: 0 20px;
-  font-family: 'Arial', sans-serif;
+  font-family: var(--ff-poppins);
 }
 
+
 .skills-title {
-  font-size: 2em;
-  color: #27AE60; /* Color del título de habilidades cambiado */
+  font-size: var(--fs-1);
+  color: var(--orange-yellow-crayola);
   text-align: left;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #27AE60; /* Color del borde cambiado */
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--orange-yellow-crayola);
   display: inline-block;
   padding-bottom: 5px;
 }
 
 .skills-card {
   display: flex;
-  background-color: #222;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  color: #fff;
+  flex-direction: column;
+  background: var(--border-gradient-onyx);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: var(--shadow-2);
   position: relative;
+  z-index: 1;
+  gap: 30px;
 }
 
 .skills-column {
   flex: 1;
-  padding: 0 20px;
+  padding: 0;
 }
 
 .skills-column h4 {
-  font-size: 1.8em;
-  margin-bottom: 15px;
-  color: #27AE60; /* Color de los subtítulos cambiado */
+  font-size: var(--fs-2);
+  margin-bottom: 20px;
+  color: var(--white-2);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--jet);
+}
+.hard-skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
+.hard-skills li {
+  margin-bottom: 15px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--jet);
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.hard-skills li span {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  display: inline-block;
+  min-width: 140px;
+}
+
+/* Soft Skills Styling */
+.soft-skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.soft-skills li {
+  background: var(--onyx);
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  padding: 12px 15px;
+  border-radius: 10px;
+  transition: var(--transition-1);
+  border: 1px solid var(--jet);
+}
+
+.soft-skills li:hover {
+  background: var(--bg-gradient-yellow-2);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-1);
+}
+
+/* Línea divisoria - solo visible en desktop */
+.skills-card::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 50%;
+  width: 1px;
+  background: var(--jet);
+  transform: translateX(-50%);
+  display: none;
+}
+
+/*-----------------------------------*\
+  #SKILLS RESPONSIVE
+\*-----------------------------------*/
+
+/**
+ * responsive larger than 768px screen
+ */
+
+@media (min-width: 768px) {
+  .skills-card {
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  .skills-column {
+    padding: 0 20px;
+  }
+  
+  .skills-card::after {
+    display: block;
+  }
+  
+  .soft-skills ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/**
+ * responsive larger than 1024px screen
+ */
+
+@media (min-width: 1024px) {
+  .soft-skills ul {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  
+  .skills-card {
+    padding: 40px;
+  }
+}
+
+/**
+ * responsive larger than 1250px screen
+ */
+
+@media (min-width: 1250px) {
+  .soft-skills ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .skills-column ul {
   list-style: disc inside;
   line-height: 1.6;
@@ -891,14 +1010,12 @@ main {
 
 /* Línea vertical opaca en medio */
 .skills-card::before {
-  content: '';
+  content: "";
   position: absolute;
-  top: 20px;
-  bottom: 20px;
-  left: 50%;
-  width: 1px;
-  background-color: rgba(255, 255, 255, 0.2);
-  transform: translateX(-50%);
+  inset: -32px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
 }
 
 
@@ -1316,7 +1433,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 580px screen
  */
 
-@media (min-width: 280px) {
+@media (min-width: 180px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1345,7 +1462,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 100%;
     margin-inline: auto;
     padding: 30px;
   }
