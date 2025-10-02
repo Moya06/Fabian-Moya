@@ -1645,7 +1645,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar { border-radius: 20px 20px 0 0; }
 
-  .navbar-list { gap: 20px; }
+  .navbar-list { gap: 12px; }
 
   .navbar-link { --fs-8: 14px; }
 
