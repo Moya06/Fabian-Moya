@@ -21,7 +21,7 @@ const Testimonials = () => {
       id: 1,
       avatar: certification1,
       name: "PROGRAMMING ESSENTIALS IN PYTHON",
-      subtitle: "CISCO NETWORKING ACADEMY",
+      subtitle: "OpenEDG",
       text: "Curso introductorio a la programación con Python, enfocándose en lógica, estructuras de datos, funciones, y buenas prácticas de desarrollo de software.",
       date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
@@ -53,7 +53,7 @@ const Testimonials = () => {
       id: 5,
       avatar: certification5,
       name: "LINUX ESSENTIALS",
-      subtitle: "CISCO NETWORKING ACADEMY",
+      subtitle: "NETWORK DEVELOPMENT GROUP",
       text: "Introducción a sistemas Linux, administración de usuarios, permisos, scripts básicos y manejo de servicios esenciales en entornos profesionales.",
       date: "Febrero 8, 2024 - Diciembre 13, 2024"
     },
